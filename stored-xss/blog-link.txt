@@ -1,0 +1,1 @@
+https://medium.com/@mugehajacky/exploiting-stored-xss-in-a-vulnerable-web-app-50b044874f69

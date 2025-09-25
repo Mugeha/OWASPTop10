@@ -48,7 +48,7 @@ Image-based XSS:
 
 - Use .textContent or .innerText for safe DOM manipulation
 
-Sanitize input using libraries like DOMPurify
+- Sanitize input using libraries like DOMPurify
 
 Apply a Content Security Policy (CSP) to reduce script execution risk
 

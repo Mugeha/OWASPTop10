@@ -44,7 +44,7 @@ Image-based XSS:
 
 ## Recommendations
 
-Never inject untrusted input using innerHTML
+- Never inject untrusted input using innerHTML
 
 Use .textContent or .innerText for safe DOM manipulation
 

@@ -46,7 +46,7 @@ Image-based XSS:
 
 - Never inject untrusted input using innerHTML
 
-Use .textContent or .innerText for safe DOM manipulation
+- Use .textContent or .innerText for safe DOM manipulation
 
 Sanitize input using libraries like DOMPurify
 

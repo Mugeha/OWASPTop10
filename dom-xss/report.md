@@ -40,7 +40,7 @@ Image-based XSS:
 
 - Full control of DOM from attacker-crafted links
 
-High risk in single-page apps (SPAs) and dynamic frontends
+- High risk in single-page apps (SPAs) and dynamic frontends
 
 ## Recommendations
 Never inject untrusted input using innerHTML

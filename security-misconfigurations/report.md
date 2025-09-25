@@ -9,7 +9,7 @@ DVWA running locally on Apache and MySQL via WSL
 ## Reproduction & Findings
 
 ### 1. Exposed `phpinfo.php`
-- **URL**: http://localhost:8080/DVWA/phpinfo.php
+- **URL**: [Your phpinfo localhost link](http://localhost:8080/DVWA/phpinfo.php]
 - **Impact**: Reveals PHP version, server paths, and environment variables.
 - **Risk**: Attackers can tailor exploits based on software versions or file locations.
 

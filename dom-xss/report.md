@@ -26,6 +26,7 @@ Cookie access:
 ```html
 <script>alert(document.cookie)</script>
 Image-based XSS:
+```
 
 ```html
 <img src=x onerror=alert('Image XSS')>

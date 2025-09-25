@@ -13,6 +13,8 @@ http://localhost:8080/DVWA/vulnerabilities/xss_d/
 3. Modify the URL to:
 ```html
 http://localhost:8080/DVWA/vulnerabilities/xss_d/?default=<script>alert('DOM XSS')</script>
+```
+
 4. Press Enter
 Result: A JavaScript alert is triggered, confirming execution of injected code.
 

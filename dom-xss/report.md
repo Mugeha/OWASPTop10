@@ -30,6 +30,7 @@ Image-based XSS:
 
 ```html
 <img src=x onerror=alert('Image XSS')>
+```
 
 ## Impact
 Script execution in the victim’s browser

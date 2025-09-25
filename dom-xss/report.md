@@ -38,7 +38,7 @@ Image-based XSS:
 
 - Theft of session cookies or browser data
 
-Full control of DOM from attacker-crafted links
+- Full control of DOM from attacker-crafted links
 
 High risk in single-page apps (SPAs) and dynamic frontends
 

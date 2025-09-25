@@ -20,6 +20,7 @@ http://localhost:8080/DVWA/vulnerabilities/xss_d/?default=<script>alert('DOM XSS
 Result: A JavaScript alert is triggered, confirming execution of injected code.
 
 ## Additional Payloads Tested
+
 Cookie access:
 
 ```html

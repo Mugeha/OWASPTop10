@@ -36,7 +36,7 @@ Image-based XSS:
 
 - Script execution in the victim’s browser
 
-Theft of session cookies or browser data
+- Theft of session cookies or browser data
 
 Full control of DOM from attacker-crafted links
 

@@ -1,7 +1,7 @@
 # Server-Side Request Forgery (SSRF) – Vulnerability Report
 
 ## Summary
-The DVWA environment was tested for SSRF behavior through its File Inclusion module. Although DVWA does not have a dedicated SSRF section, we simulated SSRF using local and remote file/resource loading. The system demonstrated SSRF-like behavior when fetching internal files and partially rendering remote server requests.
+The DVWA environment was tested for SSRF behavior through its File Inclusion module. Although DVWA does not have a dedicated SSRF section, I simulated SSRF using local and remote file/resource loading. The system demonstrated SSRF-like behavior when fetching internal files and partially rendering remote server requests.
 
 ## Affected System
 DVWA running in Apache (WSL Ubuntu)

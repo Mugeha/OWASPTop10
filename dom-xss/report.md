@@ -43,6 +43,7 @@ Image-based XSS:
 - High risk in single-page apps (SPAs) and dynamic frontends
 
 ## Recommendations
+
 Never inject untrusted input using innerHTML
 
 Use .textContent or .innerText for safe DOM manipulation

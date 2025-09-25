@@ -50,6 +50,6 @@ Image-based XSS:
 
 - Sanitize input using libraries like DOMPurify
 
-Apply a Content Security Policy (CSP) to reduce script execution risk
+- Apply a Content Security Policy (CSP) to reduce script execution risk
 
 

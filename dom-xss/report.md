@@ -33,6 +33,7 @@ Image-based XSS:
 ```
 
 ## Impact
+
 Script execution in the victim’s browser
 
 Theft of session cookies or browser data

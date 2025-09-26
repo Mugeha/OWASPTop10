@@ -22,6 +22,7 @@ http://localhost:8080/DVWA/vulnerabilities/xss_s/
 Result: An alert box is triggered **every time the page loads**, confirming persistent script execution.
 
 ## Additional Payloads Tested
+
 - Cookie access:
 ```html
 <script>alert(document.cookie)</script>

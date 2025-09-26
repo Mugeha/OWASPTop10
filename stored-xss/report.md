@@ -30,6 +30,7 @@ Result: An alert box is triggered **every time the page loads**, confirming pers
 ## Additional Payloads Tested
 
 Cookie access:
+
 ```html
 <script>alert(document.cookie)</script>
 Fake image:

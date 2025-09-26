@@ -14,7 +14,7 @@ DVWA → XSS (Stored)
 
 http://localhost:8080/DVWA/vulnerabilities/xss_s/
 
-3. Set DVWA Security to Low
+2. Set DVWA Security to Low
 4. Input the following:
 - Name: `Attacker`
 - Message:

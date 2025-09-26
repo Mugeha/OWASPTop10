@@ -29,6 +29,7 @@ Fake image:
 <img src=x onerror="alert('Image-based XSS')">
 ```
 ## Impact
+
 Stored XSS affects every user visiting the page
 
 Attackers can steal cookies, credentials, or perform actions as the victim (session hijack)

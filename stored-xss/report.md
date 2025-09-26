@@ -1,6 +1,7 @@
 # Stored Cross-Site Scripting (XSS) – Vulnerability Report
 
 ## Summary
+
 A Stored XSS vulnerability was discovered in DVWA’s Guestbook module. Malicious JavaScript input submitted through the message form is stored in the database and executed whenever any user accesses the page, including administrators and future visitors.
 
 ## Affected Module

@@ -53,4 +53,4 @@ Fake image:
 
 - Apply strict Content Security Policy (CSP)
 
-Avoid rendering raw HTML from user input without validation
+- Avoid rendering raw HTML from user input without validation

@@ -49,7 +49,7 @@ Fake image:
 
 - Sanitize all inputs before storing in the database
 
-Use htmlspecialchars() or equivalent to encode output
+- Use htmlspecialchars() or equivalent to encode output
 
 Apply strict Content Security Policy (CSP)
 

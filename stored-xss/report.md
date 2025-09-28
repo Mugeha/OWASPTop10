@@ -47,7 +47,7 @@ Fake image:
 
 ### Recommendations
 
-Sanitize all inputs before storing in the database
+- Sanitize all inputs before storing in the database
 
 Use htmlspecialchars() or equivalent to encode output
 

@@ -46,6 +46,7 @@ Fake image:
 - Admins are at risk if their panels render user content
 
 ### Recommendations
+
 Sanitize all inputs before storing in the database
 
 Use htmlspecialchars() or equivalent to encode output

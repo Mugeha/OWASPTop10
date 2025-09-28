@@ -51,6 +51,6 @@ Fake image:
 
 - Use htmlspecialchars() or equivalent to encode output
 
-Apply strict Content Security Policy (CSP)
+- Apply strict Content Security Policy (CSP)
 
 Avoid rendering raw HTML from user input without validation

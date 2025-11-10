@@ -112,50 +112,63 @@ If an attacker successfully exploits inadequate supply chain security, the techn
 
 - Data Breach: The attacker can steal sensitive data, such as login credentials, personal data, or financial information. The data breach can have long-term consequences for the affected individuals, such as identity theft or financial fraud.
 
-Malware Infection: The attacker can introduce malware into the mobile application, which can infect the user’s device and steal data or perform malicious activities. The malware can be difficult to detect and remove, and it can cause significant damage to the user’s device and data.
+- Malware Infection: The attacker can introduce malware into the mobile application, which can infect the user’s device and steal data or perform malicious activities. The malware can be difficult to detect and remove, and it can cause significant damage to the user’s device and data.
 
-Unauthorized Access: The attacker can gain access to the mobile application’s server or the user’s device and perform unauthorized activities, such as modifying or deleting data. This can result in data loss, service disruption, or other technical issues.
+- Unauthorized Access: The attacker can gain access to the mobile application’s server or the user’s device and perform unauthorized activities, such as modifying or deleting data. This can result in data loss, service disruption, or other technical issues.
 
-System Compromise: The attacker can compromise the entire system of the mobile application, which can lead to a complete loss of control over the system. This can result in the shutdown of the application, significant data loss, and long-term damage to the reputation of the mobile application developer.
+- System Compromise: The attacker can compromise the entire system of the mobile application, which can lead to a complete loss of control over the system. This can result in the shutdown of the application, significant data loss, and long-term damage to the reputation of the mobile application developer.
 
-Business Impacts
+### Business Impacts
+
 Impact SEVERE
 
 If an attacker successfully exploits inadequate supply chain security, the business impact can be significant. The specific business impact depends on the nature of the exploit and the organization’s size, industry, and overall security posture, but it can include:
 
-Financial Losses: The organization can suffer financial losses as a result of the attack, such as the cost of investigating the breach, the cost of notifying affected individuals, or the cost of legal settlements. The organization can also lose revenue if customers lose trust in the mobile application and stop using it.
+- Financial Losses: The organization can suffer financial losses as a result of the attack, such as the cost of investigating the breach, the cost of notifying affected individuals, or the cost of legal settlements. The organization can also lose revenue if customers lose trust in the mobile application and stop using it.
 
-Reputational Damage: The organization can suffer reputational damage as a result of the attack, which can lead to long-term damage to the organization’s brand and customer trust. This can result in reduced revenue and difficulty in attracting new customers.
+- Reputational Damage: The organization can suffer reputational damage as a result of the attack, which can lead to long-term damage to the organization’s brand and customer trust. This can result in reduced revenue and difficulty in attracting new customers.
 
-Legal and Regulatory Consequences: The organization can face legal and regulatory consequences as a result of the attack, such as fines, lawsuits, or government investigations. These consequences can result in significant financial and reputational damage to the organization.
+- Legal and Regulatory Consequences: The organization can face legal and regulatory consequences as a result of the attack, such as fines, lawsuits, or government investigations. These consequences can result in significant financial and reputational damage to the organization.
 
-Supply Chain Disruption: The attack can disrupt the organization’s supply chain and lead to delays or interruptions in the delivery of goods or services. This can result in financial losses and reputational damage to the organization.
+- Supply Chain Disruption: The attack can disrupt the organization’s supply chain and lead to delays or interruptions in the delivery of goods or services. This can result in financial losses and reputational damage to the organization.
 
-Am I vulnerable to ‘Inadequate Supply Chain Vulnerability’?
+### Am I vulnerable to ‘Inadequate Supply Chain Vulnerability’?
+
 It is possible that you are vulnerable to inadequate supply chain vulnerability, particularly if you use mobile applications that are developed by third-party developers or rely on third-party libraries and components. The vulnerability can arise due to a variety of reasons, such as:
 
-Lack of Security in Third-Party Components: Third-party components, such as libraries or frameworks, can contain vulnerabilities that can be exploited by attackers. If the mobile application developer does not vet the third-party components properly or keep them updated, the application can be vulnerable to attacks.
+- Lack of Security in Third-Party Components: Third-party components, such as libraries or frameworks, can contain vulnerabilities that can be exploited by attackers. If the mobile application developer does not vet the third-party components properly or keep them updated, the application can be vulnerable to attacks.
 
-Malicious Insider Threats: Malicious insiders, such as a rogue developer or a supplier, can introduce vulnerabilities into the mobile application intentionally. This can occur if the developer does not implement adequate security controls and monitoring of the supply chain process.
+- Malicious Insider Threats: Malicious insiders, such as a rogue developer or a supplier, can introduce vulnerabilities into the mobile application intentionally. This can occur if the developer does not implement adequate security controls and monitoring of the supply chain process.
 
-Inadequate Testing and Validation: If the mobile application developer does not test the application thoroughly, it can be vulnerable to attacks. The developer may also fail to validate the security of the supply chain process, leading to vulnerabilities in the application.
+- Inadequate Testing and Validation: If the mobile application developer does not test the application thoroughly, it can be vulnerable to attacks. The developer may also fail to validate the security of the supply chain process, leading to vulnerabilities in the application.
 
-Lack of Security Awareness: If the mobile application developer does not have adequate security awareness, they may not implement the necessary security controls to prevent supply chain attacks.
+- Lack of Security Awareness: If the mobile application developer does not have adequate security awareness, they may not implement the necessary security controls to prevent supply chain attacks.
 
-How Do I Prevent ‘Inadequate Supply Chain Vulnerability’?
-Implement secure coding practices, code review, and testing throughout the mobile app development lifecycle to identify and mitigate vulnerabilities.
-Ensure secure app signing and distribution processes to prevent attackers from signing and distributing malicious code.
-Use only trusted and validated third-party libraries or components to reduce the risk of vulnerabilities.
-Establish security controls for app updates, patches, and releases to prevent attackers from exploiting vulnerabilities in the app.
-Monitor and detect supply chain security incidents through security testing, scanning, or other techniques to detect and respond to incidents in a timely manner.
-Example Attack Scenarios
+### How Do I Prevent ‘Inadequate Supply Chain Vulnerability’?
+
+- Implement secure coding practices, code review, and testing throughout the mobile app development lifecycle to identify and mitigate vulnerabilities.
+- Ensure secure app signing and distribution processes to prevent attackers from signing and distributing malicious code.
+- Use only trusted and validated third-party libraries or components to reduce the risk of vulnerabilities.
+- Establish security controls for app updates, patches, and releases to prevent attackers from exploiting vulnerabilities in the app.
+- Monitor and detect supply chain security incidents through security testing, scanning, or other techniques to detect and respond to incidents in a timely manner.
+  
+### Example Attack Scenarios
+
 Scenario #1 Malware Injection
 
 An attacker injects malware into a popular mobile app during the development phase. The attacker then signs the app with a valid certificate and distributes it to the app store, bypassing the app store’s security checks. Users download and install the infected app, which steals their login credentials and other sensitive data. The attacker then uses the stolen data to commit fraud or identity theft, causing significant financial harm to the victims and reputational damage to the app provider.
 
-References
+### References
+
 OWASP
-Supply Chain Vulnerabilities
-OWASP Dependency Check
+
+[Supply Chain Vulnerabilities](https://owasp.org/www-project-kubernetes-top-ten/2022/en/src/K02-supply-chain-vulnerabilities)
+
+[OWASP Dependency Check](https://owasp.org/www-project-dependency-check/)
+
 External
-External References
+
+[External References](http://cwe.mitre.org/)
+
+
+
